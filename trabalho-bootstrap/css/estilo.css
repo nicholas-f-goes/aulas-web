@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.jumbotron{
+  margin-bottom: 0;
+}
+
+.rodape{
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.jumbotron {
+  color: red;
+  background-color: #000;
+  background-size: cover;
+}
+
+body{
+  background-color: rgb(15, 15, 15);
+}
+
+.font{
+  font-family: 'Marvel', sans-serif;
+}
+
+#galeria{
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+}
+table{
+	margin:auto;
+}
+td{
+	width:350px;
+}
+td img{
+	width:100%;
+}
+
+td img:hover{
+  transform: scale(1.2);
+}
+
+#Descricao{
+  width: 100%;
+  height: 750px;
+}
+
+.Descricao {
+  background-image: url(../img/atuacao-hero-1.jpg);
+  background-size: 100% 100%;
+}
+
+.subtitles {
+  text-align: center;
+  font-family: 'Marvel';
+  font-size: 3vw;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}

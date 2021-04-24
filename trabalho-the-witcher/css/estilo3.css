@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	scroll-behavior:smooth;
+}
+.main{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.top{
+	width:100%;
+	height:450px;
+	background-image: url(../img/TWBANNER.jpg);
+	background-size:100%;
+
+}
+#logo{
+    width: 100px;
+    height: 80px;
+}
+.menu{
+	width:100%;
+	height:45px;
+	background-color:#000;
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	text-align:center;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(29, 29, 29);
+  color:black;
+}
+
+.menu ul li {
+  display:inline-block;
+  text-align:center;
+  
+}
+
+.menu ul li a {
+  display: block;
+  font-family:thewitcher;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  width:120px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align:center;
+  border-top:4px solid rgb(29, 29, 29);
+  border-bottom:4px solid rgb(29, 29, 29);
+}
+
+.menu ul li a:hover {
+  border-bottom:4px solid #ffffff;
+}
+.presentation, .home, .profile, .gallery, .video, .special, .fanclub{
+	width:100%;
+	height:750px;
+}
+.presentation{
+	background-color:#0c0c0c;
+	color:#fff;
+}
+.presentationbox{
+	width:40%;
+	padding:60px;
+	float:left;
+}
+.subtitles{
+	text-align: center;
+	font-family:thewitcher;
+	font-size:3vw;
+	padding-bottom:20px;
+	padding-top:50px;
+}
+.presentationbox p{
+	font-family:verdana;
+	text-align:justify;
+	text-indent:20px;
+	font-size:1vw;
+	line-height:2;
+}
+
+.presentationbox li{
+	font-family:verdana;
+	text-align:justify;
+	text-indent:20px;
+	font-size:1vw;
+	line-height:2;
+}
+
+iframe{
+	border: 0ch;
+	width:50%;
+	height: 525px;
+	float:right;
+	padding-top:140px;
+	padding-right:60px;
+}
+
+.profile{
+	-webkit-filter:grayscale(100%);
+	background-image:url(../img/profile-banner.jfif);
+	background-size:100% 100%;
+}
+
+.profile:hover{
+	-webkit-filter:grayscale(0%);
+    transition: 1s;
+}
+.gallery{
+	background-color:#000;
+	color:#fff;
+	text-align:center;
+}
+table{
+	margin:auto;
+}
+td{
+	width:450px;
+}
+td img{
+	width:100%;
+}
+td img:hover{
+	transform: scale(1.2);
+}
+.footer{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	color:#fff;
+	font-family:Thewitcher;
+	background-color:#0c0c0c;
+}
+

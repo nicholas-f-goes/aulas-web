@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Framework Bootstrap - facilitando a estilização CSS</title>
+    <link rel="shortcut icon" href="img/boostrap-logo.png">
+    <meta name="description" content="Página exercitar o uso do framework Bootstrap - framework FrontEnd">
+    <meta name="keywords" content="Framework, Bootstrap, CSS, HTML, PHP">
+    <meta name="author" content="Nicholas Goes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    
+    </head>
+  <body>
+    <main class="container">
+      <header class="jumbotron">
+        <h1 class="display-4 text-danger text-center rounded-pill">Trabalhando com Boostrap</h1>
+      </header>
+
+      <section class="container">
+        <h2 class="text-dark text-center">Página com Boostrap</h2>
+        <p class="bg-danger text-white text-center p-3 rounded-pill">
+          Aula de Framework Bootstrap - Facilitador css. <br>
+          Formatando o HTML através do site Boostrap - CDN.
+        </p>
+      </section>
+
+      <!--Não funciona por causa do Jquery Bugado-->
+      <section class="container">
+        <h2 class="text-dark text-center">Logo</h2>
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+                <img src="img/boostrap01.png" class="d-block w-100" alt="Boostrap 01">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <img src="img/boostrap02.png" class="d-block w-100" alt="Boostrap 02">
+            </div>
+            <div class="carousel-item" data-interval="2000"> 
+              <img src="img/boostrap03.png" class="d-block w-100" alt="Boostrap 03">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#Carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <br>
+      </section>
+
+      <section class="container">
+        <h2 class="text-dark text-center">O que é Boostrap</h2>
+        <p class=" text-dark text-center p-3">
+          Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
+        </p>
+      </section>
+
+      <section class="container">
+        <h2 class="text-dark text-center">Origem do Boostrap</h2>
+        <p class=" text-dark text-center p-3">
+          BO Bootstrap é um dos projetos mais bem avaliados no site GitHub, com mais de 111 600 estrelas e 51 500 forks. Possui ampla documentação na página oficial: https://getbootstrap.com/, assim como diversos tutoriais e materiais em português.
+        </p>
+      </section>
+
+      <section class="container">
+        <h2 class="text-dark text-center">Recursos</h2>
+        <p class=" text-dark text-center p-3">
+          O Bootstrap 3 suporta as versões mais recentes do Google Chrome, Firefox, Internet Explorer, Opera e Safari (exceto no Windows). Além disso, também suporta o IE8 e o mais recente Firefox Extended Support Release (ESR).<br>
+          Desde a versão 2.0, o Bootstrap oferece web design responsivo. Isso significa que o layout de páginas web se ajusta de forma dinâmica, de acordo com as características do dispositivo (computador, tablet, smartphone).
+        </p>
+      </section>
+
+      <section class="container">
+        <h2 class="text-dark text-center">Estruturas</h2>
+        <p class=" text-dark text-center p-3">
+          Bootstrap é modular e consiste de uma série de estilos LESS que implementam os vários componentes do kit de ferramentas. Estas folhas são geralmente compiladas em um pacote e incluídas em páginas web, mas os componentes individuais podem ser incluídas ou removidas.<br>
+          Desde a versão 2, a documentação do Bootstrap inclui um assistente para personalização, o que gera uma versão personalizada do Bootstrap com base nos componentes solicitados e várias configurações.
+        </p>
+      </section>
+
+      <section class="container">
+        <h2 class="text-dark text-center">Site</h2>
+        <p class=" text-dark text-center p-3"><a href="https://getbootstrap.com" target="_blank">https://getbootstrap.com</a></p>
+      </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

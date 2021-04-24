@@ -1,0 +1,31 @@
+input, select, textarea{
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+input:focus, select:focus, select:focus {
+    background-color:#ccddff;
+}
+input, select, textarea{
+    margin: 5px;
+    padding: 5px;
+}
+fieldset{
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    
+
+}
+body{
+    background-color: darkgrey;
+}
+.vermelho{
+    color: red;
+
+}
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nicholas Goes - NicholasFernandesDeGoes@gmail.com">
+	<meta name="description" content="Formulario - Atividade">
+	<meta name="keywords" content="Formulario, nome, idade, horas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <fieldset>
+    
+        <form action="Processamento-de-dados" method="post">
+            <h1>Formulario</h1>
+            <div>
+                <label for="nome">Nome: <span class="vermelho">*</span></label>
+                <input type="text" name="nome" />
+            </div>
+            <div>
+                <label for="cpf">Apelido:</label>
+                <input type="number" max="none" name="cpf" />
+            </div>
+            <div>
+                <label for="Email">Email:<span class="vermelho">*</span></label>
+                <input type="email" name="Email" />
+            </div>
+            <div>
+                <label for="Senha">Senha:<span class="vermelho">*</span></label>
+                <input type="password" name="password" />
+            </div>
+            <div>
+                <label for="Repetir Senha">Repetir Senha:<span class="vermelho">*</span></label>
+                <input type="password" name="password" />
+            </div>
+            <div>
+                <label for="Sexo">Sexo:</label>
+                <select name="Sexo">
+                    <option value="Masculino" selected>Masculino</option> 
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outros">Outros</option>
+                </select>
+            </div>
+            <div>
+                <input type="button" value="Enviar">
+            </div>
+            <div>
+                <input type="button" value="Limpar">
+            </div>
+        
+
+        </form>
+    </fieldset>
+    
+</body>
+</html>
